@@ -10,7 +10,14 @@ public class ExampleFour {
 
         int average; //declared a variable and did not assign a value.
 
-        average =
+        average = (MarkOne + MarkTwo + MarkThree) / 3;
+        
+        System.out.Print(average);
+       
+        System.out.PrintIn("The average of the marks is: " + average); //join strings and ints andother primitive data // types using +
+
     }
+    }
+
     
 }
